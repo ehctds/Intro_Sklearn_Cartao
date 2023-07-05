@@ -1,1 +1,9 @@
-# Intro_Sklearn_Cartao
+Uso de IA para detecção de fraudes e determinação de limites de crédito 
+
+Este projeto tem como objetivo desenvolver um sistema abrangente para detecção de fraudes em transações de cartões de crédito, além de determinar um possível limite de crédito para cada cliente, utilizando técnicas de pré-processamento de dados e visualização da informação em conjunto com a biblioteca scikit-learn. O conjunto de dados utilizado contém informações de transações reais de cartões de crédito, representando um desafio significativo e uma oportunidade para fornecer soluções mais completas para a área de segurança financeira.
+
+Inicialmente, foram aplicadas técnicas de pré-processamento de dados para preparar o dataset para análise e modelagem de IA. Isso incluiu a limpeza dos dados, tratamento de valores ausentes, normalização de características numéricas e codificação de variáveis categóricas. Dessa forma, os dados foram preparados para análise e o treinamento de modelos, levando em consideração as informações relevantes para a determinação de possíveis fraudes e limites de crédito.
+
+A visualização da informação desempenhou um papel fundamental na compreensão dos dados e na identificação de padrões ou anomalias relevantes. Utilizando bibliotecas como matplotlib e seaborn, foram criados gráficos e plots informativos que permitiram uma exploração visual dos dados, destacando características importantes e fornecendo insights sobre o comportamento das transações fraudulentas e não fraudulentas, bem como a distribuição dos limites de crédito entre os clientes.
+
+Em seguida, foram implementados modelos de IA utilizando o scikit-learn para realizar a detecção de fraudes e a determinação de limites de crédito. Foram exploradas técnicas de aprendizado supervisionado, como Support Vector Machines (SVM) e Random Forest, bem como técnicas de regressão para estimar os limites de crédito com base nas características dos clientes. Os modelos foram treinados, avaliados e ajustados com base nos dados pré-processados e visualizados, buscando alcançar alto desempenho na detecção de fraudes e precisão na estimativa dos limites de crédito.
